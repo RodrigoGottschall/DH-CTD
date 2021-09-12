@@ -33,7 +33,7 @@ let banco = {
     for (let i = 0; i < this.clientes.length; i++) {
       if (this.clientes[i].titularConta == nome) {
         this.clientes[i].saldoTotal = this.clientes[i].saldoTotal + valor;
-        console.log("Depositado R$"+valor+ " na sua conta. Seu novo saldo é = R$"+ this.clientes[i].saldoTotal+".");
+        console.log("Deposito no valor de R$"+valor+ " na sua conta. Seu novo saldo é = R$"+ this.clientes[i].saldoTotal+".");
       }
     }
   },
