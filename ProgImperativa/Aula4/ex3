@@ -1,0 +1,27 @@
+// Ex1
+var x = 10;
+var y = 5;
+console.log(x + y);
+
+// Ex2
+var x = 10;
+var y = 5;
+console.log(x - y);
+
+// Ex4
+var z = 2;
+var soma = x + y;
+let somat = soma + z;
+console.log(somat);
+
+// Ex5
+var z = "1" + 1;
+console.log(z);
+// O console fará imprint do valor 11 só que não apenas numérico.
+
+// Ex6
+var z = "olá" + 23;
+console.log(z);
+
+// Ex7
+console.log(z + somat + ' que loucura!');
