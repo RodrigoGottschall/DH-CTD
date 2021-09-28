@@ -1,0 +1,13 @@
+body {
+  height: 1000px;
+  background-color: grey;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0;
+  background-color: rgb(226, 226, 226);
+  text-decoration: none;
+}
