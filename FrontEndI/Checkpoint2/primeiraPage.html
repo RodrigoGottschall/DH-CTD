@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário cidades</title>
+
+  <style>
+    input:hover {
+      line-height: 2em;
+      background-color: greenyellow;
+      border-radius: 10px;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      background: #ecf0f3;
+      text-align: center;
+      justify-content: center;
+      place-items: center;
+    }
+
+    .geral {
+      border-radius: 20px;
+      padding: 13px;
+      background: #b0cde4;
+      box-shadow: 14px 14px 20px #3f4042, -14px -14px 20px white;
+      overflow: hidden;
+      box-shadow: rgb(31, 26, 26);
+    }
+
+    .campo {
+      border-radius: 10px;
+    }
+
+    .campo:hover {
+      background-color: greenyellow;
+    }
+
+    .check:hover {
+      zoom: 1.4;
+      background-color: lightgray;
+    }
+
+    button {
+      margin-top: 20px;
+      height: 40px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-weight: 900;
+      box-shadow: grey;
+      transition: 0.5s;
+    }
+
+    button:hover {
+      box-shadow: none;
+      color: greenyellow;
+      background-color: rgb(50, 55, 56);
+    }
+
+    /*-------------- Inicio logo ----------------*/
+    .wait {
+      position: relative;
+      margin: 10px auto;
+      text-align: center;
+      animation: fadey 2s linear infinite;
+    }
+
+    .loader {
+      position: relative;
+      background: #EEE;
+      width: 120px;
+      height: 120px;
+      margin: 4px auto;
+      animation: distort 2s ease-out infinite;
+    }
+
+    .inner {
+      position: relative;
+      float: left;
+      width: 40px;
+      height: 40px;
+      margin: 10px;
+      background: #FFF;
+      border-radius: 20px;
+      animation: inner 2s ease-out infinite;
+    }
+
+    .inner.a {
+      background: #E85A80;
+    }
+
+    .inner.b {
+      background: #FAC140;
+    }
+
+    .inner.c {
+      background: #4AB9B0;
+    }
+
+    .inner.d {
+      background: #000000a4;
+    }
+
+    @keyframes distort {
+      0% {
+        transform: rotate(0deg);
+        border-radius: 0px;
+      }
+
+      50% {
+        transform: rotate(90deg);
+        border-radius: 60px;
+        background: green;
+
+      }
+
+      100% {
+        transform: rotate(180deg);
+        border-radius: 0px;
+      }
+    }
+
+    @keyframes inner {
+      0% {
+        opacity: 0;
+        border-radius: 20px;
+        width: 20px;
+        height: 20px;
+        margin: 20px;
+      }
+
+      50% {
+        opacity: 1;
+        border-radius: 0px;
+        width: 60px;
+        height: 60px;
+        margin: 0px;
+      }
+
+      100% {
+        opacity: 0;
+        border-radius: 20px;
+        width: 20px;
+        height: 20px;
+        margin: 20px;
+      }
+    }
+
+    @keyframes fadey {
+      0% {
+        opacity: 0.2;
+      }
+
+      50% {
+        opacity: 1;
+      }
+
+      100% {
+        opacity: 0.2;
+      }
+    }
+
+    /*-------------- Fim logo ----------------*/
+    /*andrey att*/
+    @keyframes piscapisca {
+      0% {
+        color: blue;
+        border: blue 2px solid;
+      }
+
+      10% {
+        color: chartreuse;
+        border: chartreuse 2px solid;
+      }
+
+      25% {
+        color: yellow;
+        border: yellow 2px solid;
+      }
+
+      50% {
+        color: red;
+        border: red 2px solid;
+      }
+
+      70% {
+        color: azure;
+        border: azure 2px solid;
+      }
+
+      100% {
+        color: aquamarine;
+        border: 2px solid aquamarine;
+      }
+    }
+
+    input:checked {
+      color: rgb(0, 0, 0);
+    }
+
+    .piscapisca {
+      animation: piscapisca 6s infinite;
+      background-color: rgba(0, 0, 0, 0.644);
+      border: 2px solid green;
+      font-size: 20px;
+      display: block;
+      border-radius: 25px;
+      gap: 5px;
+    }
+
+    label,
+    input {
+      color: rgb(0, 0, 0) !important;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <button><a href="./FirstPageFormu.html" style="color: black;">Next Page</a> </button>
+  <!-- Logo -->
+  <div class="wait"></div>
+  <div class="loader">
+    <div class="inner a"></div>
+    <div class="inner b"></div>
+    <div class="inner c"></div>
+    <div class="inner d"></div>
+  </div>
+  <br><br>
+  <fieldset class="geral piscapisca">
+    <form action="newsletter ">
+
+      <!-- Nome completo -->
+      <label for="nomeCompleto">Nome: </label>
+      <input type="text" name="nomeCompleto" placeholder="Nome completo" maxlength="100" required><br><br>
+
+      <!-- E-mail -->
+      <label for="email">E-mail: </label>
+      <input type="email" name="email" placeholder="Insira seu melhor email" required><br><br>
+
+      <!-- Telefone -->
+      <label for="fone">Telefone:</label>
+      <input type="tel" name="fone" placeholder="Não se esqueça do DDD" maxlength="13" required><br><br>
+
+      <!-- Data de nascimento -->
+      <label for="data">Data de nascimento:</label>
+      <input type="date" name="data" placeholder="Data de nascimento" maxlength="8" required><br><br>
+
+      <!-- Idade -->
+      <label for="maiorOuMenor">Maior ou menor de idade?</label>
+      <select name="teste" id="maiorOuMenor">
+        <option value="maior">Maior</option>
+        <option value="menor">Menor</option>
+      </select><br><br>
+
+      <!-- Campo cidades -->
+
+      <!-- Campo interesses -->
+      <fieldset class="campo" required>
+        <legend>Interesse ao visitá-la?</legend>
+        <input type="checkbox" name="opiniao1" id="turista">
+        <label for="turista">Turista</label>
+        <input type="checkbox" name="opiniao2" id="residente">
+        <label for="residente">Residente</label>
+        <input type="checkbox" name="opiniao3" id="estudante">
+        <label for="estudante">Estudante</label>
+      </fieldset><br>
+      <fieldset class="campo" required>
+        <legend>Clique para conhecer mais!</legend>
+        <a href="./indexBatatais.html">Batatais</a>
+        <p></p>
+        <a href="./indexIlheus.html">Ilheus</a>
+        <p></p>
+        <a href="./indexItatiba.html">Itatiba</a>
+
+      </fieldset><br>
+
+      <!-- Botões -->
+      <div>
+        <button type="reset" id="buttonReset">Limpar o formulário</button>
+        <button type="submit">Clique para enviar</button>
+    </form>
+  </fieldset>

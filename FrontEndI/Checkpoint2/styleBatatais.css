@@ -1,0 +1,294 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+header{
+    position:sticky;
+    top: 0;
+    background-color: black; 
+    padding: 10px;
+    z-index: 99
+}
+
+.menu{
+    font-weight: 600;
+  font-size: 20px;
+  height: 20%;
+  position: relative;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.brasao{
+    height: 50px;
+    position: relative;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.container_background{
+    background-image: url('https://www.bomjesusdosbatataes.com.br/wp-content/uploads/2015/12/matriz-1024x604.png');
+    height: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: tamanho 8s;
+}
+
+
+
+@keyframes tamanho {
+    from {
+        height: 100vh;
+    }
+
+    to {
+        height: 0vh;       
+    }
+}
+
+
+main {
+    color: black;    
+    align-items: center;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.banner-title {
+    margin-top: 20px;
+    color: green;
+
+    
+}
+
+.galery{
+    
+    height: 500px;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+
+.box-image{
+    display: flex;
+   
+}
+
+.first{
+    width: 33.3%;
+    height: 100%;
+    background-color: aqua;
+    background-image: url('https://www3.al.sp.gov.br/repositorio/noticia/08-2010/batatais%202%20-%20IGREJA%20MATRIZ%20DO%20BOM%20JESUS%20DA%20CANA%20VERDE.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.first:hover {
+    transform: scale(1.2) ;
+    position: relative;
+    left: 10%;
+}
+.second:hover {
+    transform: scale(1.2) ;
+    position: relative;
+    
+}
+.third:hover {
+    transform: scale(1.2) ;
+    position: relative;
+    right: 10%;
+}
+
+.second{
+    width: 33.3%;
+    height: 100%;
+    background-color: red;
+    background-image: url('https://www.zppconstrucoes.com.br/wp-content/uploads/2017/09/Batatais-700x460.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.third{
+    width: 33.3%;
+    height: 100%;
+    background-color: yellow;
+    background-image: url('http://2.bp.blogspot.com/-2-3y6k8oQh4/Tcf6QoBi-6I/AAAAAAAAAjQ/SSXdnqVaXO8/s1600/ItaMonteBata%2B325.JPG');
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+   
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 600; 
+   
+}
+
+.main_text{
+    margin-top: 0px;
+      margin-left: 20px;
+      margin-right: 20px;
+}
+
+.video{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+iframe{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 720px;
+    border-radius: 20px;
+}
+
+.footer-title{
+    color: white;
+    font-size: 2em;
+}
+
+
+footer {    
+    margin-top:20px;
+    background-color: black;
+}
+
+.rodape{
+    width: 100%;
+}
+
+
+
+.rodapeimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+}
+
+.instagram {
+    
+    height: 70px;
+}
+
+
+.youtube{
+    height: 50px;
+}
+
+@media (max-width: 1280px) and (min-width: 720px) {
+    body{
+        margin-right: 0;
+    }
+
+    .main_text{        
+        margin-top: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .video{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    iframe{
+        display: flex;  
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    }
+
+}
+
+
+
+@media (max-width: 720px) and (min-width: 200px) {
+     
+    body{
+        margin: 0px;
+        
+    }
+    
+
+    .main_text{
+        
+        margin-top: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .video{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    iframe{
+        display: flex;  
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        transform: scale(1.2);
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+
+    .container_background{
+        
+        display: none;
+    }
+    .rodapeimg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 50px;
+    }
+    
+    .instagram {
+        
+        height: 40px;
+    }
+    
+    
+    .youtube{
+        height: 30px;
+    }
+
+    
+
+}
+
