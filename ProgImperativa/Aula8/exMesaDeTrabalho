@@ -1,0 +1,18 @@
+  // Parque de diversões!
+  
+  function podeSubir(altura, acompanhada) {
+    if (altura<1.40 && altura>=1.20 && acompanhada){
+      console.log("Pode subir pois está acompanhada.");
+    }
+    else if (altura<1.40 && altura>=1.20 && !acompanhada){
+    console.log("Não pode subir pois não está acompanhada.");
+    }
+    else if (altura<1.20){
+    console.log("Não pode subir pois é muito baixinha.");
+    }
+    else {
+      console.log("Pode subir!");
+    }
+  }
+
+  podeSubir(1.15, true)
