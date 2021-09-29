@@ -1,0 +1,22 @@
+// 1.Repetir como um papagaio.
+for (let contador = 0; contador <=4; contador++)
+console.log(contador+' Olá mundo!');
+
+console.log('');
+console.log('Contando números ímpares:');
+// 2.Contando números impares.
+for (let impar = 1; impar <= 10; impar++)
+//se o resto da divisão por 2 for diferente de 0 faça... Podemos utilizar na condição impar =+ 2.
+if ((impar % 2) != 0) {
+  console.log(impar);
+}
+
+
+// 3.Criando a tabuada)
+console.log('');
+console.log('Tabuada:');
+for (let tabuada = 1; tabuada <= 10; tabuada++) {
+  for (let i = 1; i <= 10; i++) {
+    console.log(tabuada+' x '+i+' = '+i*tabuada);
+  }
+}
