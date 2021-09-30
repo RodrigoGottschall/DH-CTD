@@ -62,5 +62,5 @@ console.log('===================================================================
 
 //Teste passo 5 e 6
 console.log("Teste da funcao aprovados/reprovados")
-console.log(`retrono da funcao avaliando a aprovacao de cada aluno :${curso.avaliaAlunos()}`)
+console.log(`Retorno da funcao avaliando a aprovacao de cada aluno :${curso.avaliaAlunos()}`)
 console.log('========================================================================')
