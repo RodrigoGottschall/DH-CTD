@@ -23,7 +23,6 @@ var curso = {
         }
     },
     avaliaAlunos:(curso)=>{
-        console.log(curso.listaEst)
         var retorno = [];
         curso.listaEst.forEach((aluno)=>{
             retorno.push(curso.alunoAprovado(aluno,curso))
