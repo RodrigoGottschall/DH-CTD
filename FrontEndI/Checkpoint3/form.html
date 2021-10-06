@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário dojo</title>
+  <link rel="stylesheet" href="./css/form.css">
+</head>
+
+<body>
+  <!-- Logo -->
+  <button class="topButton">
+    <a href="./dojo.html">Voltar</a>
+  </button>
+  <div class="wait"></div>
+  <div class="loader">
+    <div class="inner a"></div>
+    <div class="inner b"></div>
+    <div class="inner c"></div>
+    <div class="inner d"></div>
+  </div>
+  <br><br>
+  <fieldset class="geral">
+    <form action="newsletter">
+
+      <!-- Nome completo -->
+      <div>
+        <label for="nomeCompleto">Nome: </label>
+        <input type="text" name="nomeCompleto" placeholder="Nome completo" maxlength="100" required>
+      </div>
+
+      <!-- E-mail -->
+      <div>
+        <label for="email">E-mail: </label>
+        <input type="email" name="email" placeholder="Insira seu melhor email" required>
+      </div>
+
+      <!-- Telefone -->
+      <div>
+        <label for="fone">Telefone:</label>
+        <input type="tel" name="fone" placeholder="Não se esqueça do DDD" maxlength="13" required>
+      </div>
+
+      <!-- Data de nascimento -->
+      <div>
+        <label for="data">Data de nascimento:</label>
+        <input type="date" name="data" placeholder="Data de nascimento" maxlength="8" required>
+      </div>
+
+      <!-- Campo interesses -->
+      <fieldset class="modalidades" required>
+        <legend>Qual das modalidades teria interesse em praticar?</legend>
+        <div>
+          <input type="checkbox" name="opiniao1" id="hapkido">
+          <label for="hapkido">Hapkido</label>
+        </div>
+        <div>
+          <input type="checkbox" name="opiniao2" id="jiuJitsu">
+          <label for="jiuJitsu">Jiu Jitsu</label>
+        </div>
+        <div>
+          <input type="checkbox" name="opiniao3" id="judo">
+          <label for="judo">Judô</label>
+        </div>
+        <div>
+          <input type="checkbox" name="opiniao4" id="karate">
+          <label for="karate">Karatê</label>
+        </div>
+        <div>
+          <input type="checkbox" name="opiniao5" id="kravMaga">
+          <label for="kravMaga">Krav Magá</label>
+        </div>
+        <div>
+          <input type="checkbox" name="opiniao6" id="kungFu">
+          <label for="kungFu">Kung fu</label>
+        </div>
+        <div>
+          <input type="checkbox" name="opiniao7" id="ninjutsu">
+          <label for="ninjutsu">Ninjutsu</label>
+        </div>
+        <div>
+          <input type="checkbox" name="opiniao8" id="sanda">
+          <label for="sanda">Sanda</label>
+        </div>
+        <div>
+          <input type="checkbox" name="opiniao9" id="taekwondo">
+          <label for="taekwondo">Taekwondo</label>
+        </div>
+        <div>
+          <input type="checkbox" name="opiniao10" id="taiChiChuan">
+          <label for="taiChiChuan">Tai Chi Chuan</label>
+        </div>
+        <div>
+          <input type="checkbox" name="opiniao11" id="yoga">
+          <label for="yoga">Yoga</label>
+        </div>
+      </fieldset>
+
+      <label for="opiniao"></label>
+      <textarea rows="8" cols="50" placeholder="Deixe sua opinião sobre o site aqui!"></textarea>
+
+      <!-- 
+      <fieldset class="cidades" required>
+        <legend>Clique para conhecer mais!</legend>
+        <a href="./indexItatiba.html">Batatais</a>
+        <p></p>
+        <a href="./indexIlheus.html">Ilheus</a>
+        <p></p>
+        <a href="./indexItatiba.html">Itatiba</a>
+      </fieldset> -->
+
+      <!-- Botões -->
+      <div>
+        <button type="reset" id="buttonReset">Limpar o formulário</button>
+        <button type="submit">Clique para enviar</button>
+
+
+
+    </form>
+  </fieldset>

@@ -1,0 +1,153 @@
+input {
+  opacity: 0.7;
+}
+
+input:hover {
+  opacity: 1;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background: #ecf0f3;
+  text-align: center;
+  justify-content: center;
+  place-items: center;
+}
+
+.geral {
+  border-radius: 20px;
+  padding: 13px;
+  background: #ecf0f3;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+
+button {
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 1000;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  transition: 1s;
+}
+
+button:hover {
+  box-shadow: none;
+}
+
+form {
+  max-width: 410px;
+}
+
+/*-------------- Inicio logo ----------------*/
+.wait {
+  position: relative;
+  margin: 10px auto;
+  text-align: center;
+  animation: 2s linear infinite;
+}
+
+.loader {
+  position: relative;
+  background: #EEE;
+  width: 120px;
+  height: 120px;
+  margin: 4px auto;
+  animation: distort 2s ease-out infinite;
+}
+
+.inner {
+  position: relative;
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  background: #FFF;
+  border-radius: 20px;
+  animation: inner 2s ease-out infinite;
+}
+
+.inner.a {
+  background: red;
+}
+
+.inner.b {
+  background: black;
+}
+
+.inner.c {
+  background: white;
+}
+
+.inner.d {
+  background: red;
+}
+
+@keyframes distort {
+  0% {
+    transform: rotate(0deg);
+    border-radius: 0px;
+  }
+
+  50% {
+    transform: rotate(90deg);
+    border-radius: 60px;
+    background: grey;
+
+  }
+
+  100% {
+    transform: rotate(180deg);
+    border-radius: 0px;
+  }
+}
+
+@keyframes inner {
+  0% {
+    opacity: 0;
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+  }
+
+  50% {
+    opacity: 1;
+    border-radius: 0px;
+    width: 60px;
+    height: 60px;
+    margin: 0px;
+  }
+
+  100% {
+    opacity: 0;
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+  }
+}
+
+@keyframes fadey {
+  0% {
+    opacity: 0.2;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.2;
+  }
+} 
+/*-------------- Fim logo ----------------*/
+
+form>div,fieldset {
+  margin-bottom: 20px;
+}
+
+.topButton {
+  margin-top: 20px;
+}
