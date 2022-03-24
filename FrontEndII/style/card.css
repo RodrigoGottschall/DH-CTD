@@ -1,0 +1,47 @@
+#card-container {
+    margin: 1rem;
+    width: 20rem;
+}
+
+#card-container .card {
+    box-shadow: 0 3px 10px skyblue;
+    background-color: honeydew;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    gap: 1.0rem;
+    border-radius: 1rem;
+}
+
+#card-container .card img {
+    width: 15rem;
+    border-radius: 2rem;
+}
+
+#card-container .card-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+}
+
+#card-container .card-div .descricao {
+    max-width: 10rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 15rem;
+    overflow: hidden;
+}
+
+.btn-circle {
+    width: 1.875rem;
+    height: 1.875rem;
+    border: 3px solid;
+    color: skyblue;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .4s;
+}

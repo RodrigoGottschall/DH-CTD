@@ -1,0 +1,30 @@
+/* header e navbar
+  
+.navbar {
+    padding: 1rem;
+}
+  
+.logo {
+    max-width: 4rem;
+}
+  
+.navbar-light .navbar-nav .nav-link {
+    color: var(--text-btn);
+    margin-top: .5rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--hover-light);
+}
+
+.navbar-light .navbar-nav .nav-link .modo-noite:hover {
+    color: var(--circle-btn);
+}
+
+.navbar-light .navbar-nav .nav-link:visited {
+    color: var(--text-btn);
+}
+
+.navbar-toggler {
+    background-color: var(--text-btn);
+} */
