@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Checkpoint 1 - Grupo 8</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/Ifront.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                    Ifront
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="container">
+            <form action="" id="form">
+                <h1>🍔 Cardápio IFront 🍔</h1>
+
+                <label for="nomeProduto" class="cadNome">Lanche/Porção</label>
+                <input type="text" id="nomeProduto" class="cadNomeInput" placeholder="Insira o nome do lanche ou porção"
+                    data-js="nome">
+
+                <label for="url" class="cadUrl">Imagem</label>
+                <input type="url" id="url" data-js="url" class="cadUrlInput"
+                    placeholder="Insira a URL com a imagem do Lanche/Porção">
+
+                <label for="preco" class="cadPreco">Preço</label>
+                <input type="number" id="preco" name="inputPreco" class="cadPrecoInput" placeholder="0,00"
+                    maxlength="10" data-js="preco">
+
+                <label for="cadDescricaoInput" class="cadDescricao">Descrição</label>
+                <textarea name="descricao" id="cadDescricaoInput" cols="20" rows="10" maxlength="150"
+                    placeholder="Insira a descrição do Lanche/Porção"></textarea>
+
+                <button type="submit" id="botaoEnviar" class="botao Enviar">Adicionar</button>
+                <button type="reset" class="botao Limpar">Limpar</button>
+            </form>
+            <section id="card-container"></section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+    <script src="./js/cards.js" type="module"></script>
+</body>
+
+</html>
