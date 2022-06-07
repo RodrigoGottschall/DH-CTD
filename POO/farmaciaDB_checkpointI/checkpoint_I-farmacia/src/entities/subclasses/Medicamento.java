@@ -7,7 +7,6 @@ public class Medicamento {
     private int quantidade;
 
     //Construtores
-
     public Medicamento(){
 
     }
@@ -19,7 +18,6 @@ public class Medicamento {
     }
 
     //Getters e Setters
-
     public int getId() {
         return id;
     }
@@ -44,6 +42,7 @@ public class Medicamento {
         this.quantidade = quantidade;
     }
 
+    //Métodos
     public void consultarMedicamento(String receitaUsuario, int quantidade){
         if(this.nomeMedicamento == receitaUsuario) {
             if(this.quantidade >= quantidade){
