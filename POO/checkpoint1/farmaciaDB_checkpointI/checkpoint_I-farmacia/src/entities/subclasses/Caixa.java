@@ -27,7 +27,7 @@ public class Caixa extends Funcionario {
     }
 
     //Métodos
-    public static Double receberPagamento(Double valor, String formaDePagamento) {
+    public static Double receberPagamento(double valor, String formaDePagamento) {
         Scanner sc1 = new Scanner(System.in);
         Double debitoCliente = valor;
         if (formaDePagamento == "Á VISTA") {
