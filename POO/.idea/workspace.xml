@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="616ec371-60bf-4d89-abed-f93300c5bb2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/POO.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint1/farmaciaDB_checkpointI/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoint1/farmaciaDB_checkpointI/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint1/farmaciaDB_checkpointI/checkpoint_I-farmacia/out/production/checkpoint_I-farmacia/Programa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint1/farmaciaDB_checkpointI/checkpoint_I-farmacia/out/production/checkpoint_I-farmacia/entities/Endereco.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint1/farmaciaDB_checkpointI/checkpoint_I-farmacia/out/production/checkpoint_I-farmacia/entities/Funcionario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint1/farmaciaDB_checkpointI/checkpoint_I-farmacia/out/production/checkpoint_I-farmacia/entities/subclasses/Atendimento.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint1/farmaciaDB_checkpointI/checkpoint_I-farmacia/out/production/checkpoint_I-farmacia/entities/subclasses/Caixa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint1/farmaciaDB_checkpointI/checkpoint_I-farmacia/out/production/checkpoint_I-farmacia/entities/subclasses/Medicamento.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint1/farmaciaDB_checkpointI/out/production/checkpoint_I/Programa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint1/farmaciaDB_checkpointI/out/production/checkpoint_I/entities/Endereco.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint1/farmaciaDB_checkpointI/out/production/checkpoint_I/entities/Funcionario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint1/farmaciaDB_checkpointI/out/production/checkpoint_I/entities/subclasses/Atendimento.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint1/farmaciaDB_checkpointI/out/production/checkpoint_I/entities/subclasses/Caixa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint1/farmaciaDB_checkpointI/out/production/checkpoint_I/entities/subclasses/Medicamento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint1/UML/New Text Document.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoint1/UML/New Text Document.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint1/farmaciaDB_checkpointI/checkpoint_I-farmacia/src/Programa.java" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoint1/farmaciaDB_checkpointI/checkpoint_I-farmacia/src/Programa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint1/farmaciaDB_checkpointI/checkpoint_I-farmacia/src/entities/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoint1/farmaciaDB_checkpointI/checkpoint_I-farmacia/src/entities/Endereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint1/farmaciaDB_checkpointI/checkpoint_I-farmacia/src/entities/subclasses/Atendimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoint1/farmaciaDB_checkpointI/checkpoint_I-farmacia/src/entities/subclasses/Atendimento.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +30,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/ro_cr/Desktop/Programação/GitHub/CTD-DH/POO/checkpoint1/farmaciaDB_checkpointI"
+    "last_opened_file_path": "C:/Users/ro_cr/Desktop/drogariaDrogaRaio"
   }
 }]]></component>
   <component name="RunManager">

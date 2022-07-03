@@ -29,5 +29,7 @@ public class Atendimento extends Funcionario {
                 "Atendimento{" +
                 "cargo='" + cargo + '\'' +
                 "} ";
+        System.out.println();
     }
 }
+

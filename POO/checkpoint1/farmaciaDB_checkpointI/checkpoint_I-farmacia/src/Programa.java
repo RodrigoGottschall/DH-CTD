@@ -16,7 +16,7 @@ public class Programa {
         //INSTANCIANDO A CLASSE FUNCIONÁRIO E AS SUBCLASSES ATENDIMENTO E CAIXA.
         Funcionario funcionario_1 = new Atendimento(1,"Rodrigo", "Gottschall","111.111.111-11",end_1,"Farmaceutico");
         Funcionario funcionario_2 = new Atendimento(2,"Ederson","Oliveira","222.222.222-22",end_2,"Auxiliar de farmácia");
-        Funcionario funcionario_3 = new Caixa(3,"Ana","Xerecavisk","333.333.333-33",end_3,"Operador de Caixa");
+        Funcionario funcionario_3 = new Caixa(3,"Ana","Beatriz","333.333.333-33",end_3,"Operador de Caixa");
 
         //INSTANCIANDO A CLASSE MEDICAMENTO
         Medicamento medicamento_1 = new Medicamento(1, "Dipirona", 10);

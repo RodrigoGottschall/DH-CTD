@@ -1,7 +1,6 @@
 package entities;
 
 public class Endereco {
-
     private int id;
     private String rua;
     private String numero;
